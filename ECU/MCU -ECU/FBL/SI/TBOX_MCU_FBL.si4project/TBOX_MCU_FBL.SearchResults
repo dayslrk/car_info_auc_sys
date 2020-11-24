@@ -1,0 +1,5 @@
+---- UDS_GeneratSeed Matches (4 in 2 files) ----
+UDS_Service0x27Handle in ISO14229_1.c (BootLoader\Tp&UDS\UDS\Src) :                         UDS_GeneratSeed(Seed);/*生成随机数种子*/
+ISO14229_1.c (BootLoader\Tp&UDS\UDS\Src) line 1299 : * 函数名称: UDS_GeneratSeed
+ISO14229_1.c (BootLoader\Tp&UDS\UDS\Src) line 1306 : void UDS_GeneratSeed(u8 *Seed)
+ISO14229_1.h (BootLoader\Tp&UDS\UDS\Inc) line 263 : void UDS_GeneratSeed(u8 *Seed);

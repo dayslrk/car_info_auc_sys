@@ -1,0 +1,10 @@
+Mcu端发送数据只需调用：SendData(const u8 SN, const EN_APPS Sender, const EN_APPS Recver, const u16 DLen, const u8 * pdata)
+SN和Sender参数都不起作用，可以随意赋值。Recver为EN_MPU_APP*，DLen为发送数据长度，pdata为发送数据指针
+
+main.c需调用初始化函数TransInit();和周期调用函数TransMain();msgq_send();
+
+目前工程中仅有一个MCU APP
+
+
+Trans.h:#define RECV_NUM	1		//接收者数量，目前最多5个
+Trans.h:每增加一个APP，需修改#define APPCALLBACK*  (NULL)，接收数据回调函数

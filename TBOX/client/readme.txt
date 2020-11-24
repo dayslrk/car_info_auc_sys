@@ -1,0 +1,3 @@
+此为TBOX程序，需要先创建openssl-tls对应的arm静态库并拷贝到makefile文件对应的路径下
+（也可修改makefile中静态库的路径为你安装openssl静态库的路径），之后执行make命令即可在当前目录下生成tlsclient可执行程序。
+将程序拷贝到TBOX的MPU开发板，执行命令./tlsclient server_ip即可向服务器发起请求，待证书验证成功后，输入1敲下回车继续二级认证。

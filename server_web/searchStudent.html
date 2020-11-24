@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>车辆信息管理系统</title>
+		<style type="text/css">
+			body {
+				background-image: url(student.jpg);
+				background-size: 100%;
+			}
+
+			.box {
+				display: table;
+				margin: 0 auto;
+			}
+
+			h2 {
+				text-align: center;
+			}
+
+			.add {
+				margin-bottom: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<!--输出定制表单-->
+		<div class="box">
+			<h2>查找车辆</h2>
+			<div class="add">
+				<form action="searchStudent.php" method="get" enctype="multipart/form-data">
+					<table border="1">
+						<tr>
+							<th>车辆编号：</th>
+							<td><input type="text" name="id" size="25" value="" autofocus="autofocus"></td>
+						</tr>
+						<tr>
+							<th></th>
+							<td>
+								<input type="button" onClick="javascript :history.back(-1);" value="返回">&nbsp;&nbsp;&nbsp;
+								<input type="reset" value="重置">&nbsp;&nbsp;&nbsp;
+								<input type="submit" value="查找">&nbsp;&nbsp;&nbsp;
+							</td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

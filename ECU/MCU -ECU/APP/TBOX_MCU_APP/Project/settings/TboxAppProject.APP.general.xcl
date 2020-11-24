@@ -1,0 +1,15 @@
+"D:\IAR\arm\bin\armproc.dll" 
+
+"D:\IAR\arm\bin\armstlink2.dll" 
+
+"C:\Users\龙\Desktop\ECU使用说明文件\MCU -ECU\APP\TBOX_MCU_APP\Project\APP\Exe\McuProject.out" 
+
+--plugin="D:\IAR\arm\bin\armbat.dll" 
+
+--device_macro="D:\IAR\arm\config\debugger\ST\STM32F4xx.dmac" 
+
+--flash_loader="D:\IAR\arm\config\flashloader\ST\FlashSTM32F4xxx.board" 
+
+
+
+

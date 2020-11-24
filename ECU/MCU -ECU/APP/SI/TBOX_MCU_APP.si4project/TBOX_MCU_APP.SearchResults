@@ -1,0 +1,16 @@
+---- 0x31 Matches (15 in 6 files) ----
+ISO14229_1.c (App\Tp&UDS\UDS\Src) line 29 :     {TRUE, ROUTINE_CONTROL      , UNSUPPORT_LEVEL, ZERO_LEVEL      , ZERO_LEVEL     , UNSUPPORT_LEVEL, UNSUPPORT_LEVEL, UNSUPPORT_LEVEL , FALSE, 0xFF, UDS_Service0x31Handle},
+ISO14229_1.c (App\Tp&UDS\UDS\Src) line 1724 : * 函数名称: UDS_Service0x31Handle
+ISO14229_1.c (App\Tp&UDS\UDS\Src) line 1725 : * 功能描述: 例程控制（0x31）服务的处理函数
+ISO14229_1.c (App\Tp&UDS\UDS\Src) line 1732 : void UDS_Service0x31Handle(u16 Len, u8 FrameType, u8 *Data, u8 ServiceIndex)
+UDS_Service0x31Handle in ISO14229_1.c (App\Tp&UDS\UDS\Src) :     						Log(LOG_DEBUG, "0x31 Task Create Success\n");
+UDS_Service0x31Handle in ISO14229_1.c (App\Tp&UDS\UDS\Src) :     						Log(LOG_DEBUG, "0x31 Task Create Failed\n");
+ISO14229_1.h (App\Tp&UDS\UDS\Inc) line 51 : 	ROUTINE_CONTROL = 0x31,
+ISO14229_1.h (App\Tp&UDS\UDS\Inc) line 68 : 	ROOR    = 0x31,/*reqeust out of range*/
+ISO14229_1.h (App\Tp&UDS\UDS\Inc) line 276 : void UDS_Service0x31Handle(u16 Len, u8 FrameType, u8 *Data, u8 ServiceIndex);
+Spi_Flash.h (Common\Hardware\Api\Include) line 31 : #define W25X_WriteStatusReg2    0x31 
+{anonCAN_TypeDef} in stm32f4xx.h (Common\Library\CORE) :   CAN_FilterRegister_TypeDef sFilterRegister[28]; /*!< CAN Filter Register,                 Address offset: 0x240-0x31C   */
+{anonHASH_DIGEST_TypeDef} in stm32f4xx.h (Common\Library\CORE) :   __IO uint32_t HR[8];     /*!< HASH digest registers,          Address offset: 0x310-0x32C */ 
+stm32f4xx_can.h (Common\Library\FWLIB\inc) line 507 : #define CAN_FLAG_WKU               ((uint32_t)0x31000008) /*!< Wake up Flag */
+stm32f4xx_can.h (Common\Library\FWLIB\inc) line 508 : #define CAN_FLAG_SLAK              ((uint32_t)0x31000012) /*!< Sleep acknowledge Flag */
+stm32f4xx_rcc.h (Common\Library\FWLIB\inc) line 506 : #define RCC_FLAG_HSERDY                  ((uint8_t)0x31)
